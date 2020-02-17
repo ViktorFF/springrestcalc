@@ -11,7 +11,7 @@ import java.util.Locale;
 import java.util.Map;
 
 @Component
-public class CalculatorService {
+public class CalculatorService implements ICalculatorService{
     private int historyId = 1;
     private Calculator calculator;
     private Map<Integer, String> history;
